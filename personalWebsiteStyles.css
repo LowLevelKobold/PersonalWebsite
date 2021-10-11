@@ -1,0 +1,59 @@
+.background-land{
+    background:  linear-gradient( 20deg, #27313a 45% ,  #313b44 45% );
+    height: 110vh;
+
+}
+
+.background-sec{
+     background:  linear-gradient( 20deg,  #313b44 45% ,  #27313a 45% );
+    height: 100vh;
+}
+
+body{
+    background-color: #313b44;
+}
+
+
+.navColor{
+    background-color: #313b44;
+}
+
+.navbar .navbar-brand{
+    text-transform: uppercase;
+	background: linear-gradient(to right, #e61111 10%, #F0C929 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+a{
+    text-transform: uppercase;
+}
+
+
+.align_center{
+   padding-top: 10%;
+}
+
+.scalingHC{
+    display: none;
+    max-width: 64%;
+    min-width: 64%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 576px) {
+    .scalingHC{
+        display: none;
+        align-self: center;
+        max-width: 55%;
+        min-width: 5%;
+        height: auto;
+        margin-top: 10%;
+    }
+
+    .align_center{
+        padding-top: 0%;
+     }
+}
