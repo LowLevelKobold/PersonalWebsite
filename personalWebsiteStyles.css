@@ -36,10 +36,15 @@ a{
 }
 
 .scalingHC{
-    display: none;
+    display: block;
     max-width: 64%;
     min-width: 64%;
     height: auto;
+}
+
+.downImg{
+    display: block;
+    transform: translateY(15%);
 }
 
 
@@ -55,5 +60,11 @@ a{
 
     .align_center{
         padding-top: 0%;
+     }
+
+     .downImg{
+        transform: translateY(-15%);
+        max-width: 64%;
+        min-width: 64%;
      }
 }
